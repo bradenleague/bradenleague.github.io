@@ -4,6 +4,10 @@ You can use the [editor on GitHub](https://github.com/bradenleague/bradenleague.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+<video src="invadednz.mp4" width="320" height="200" controls preload></video>
+
+[video](invadednz.mp4)
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
