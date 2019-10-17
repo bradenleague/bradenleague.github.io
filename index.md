@@ -26,6 +26,6 @@
 
 ![Kotor](Artboard 1.4.png)
 
-![Nier 1](Neir1.jpg)
+![Nier 1](nier1.jpg)
 
-![Nier 2](Nier2.jpg)
+![Nier 2](nier2.jpg)
