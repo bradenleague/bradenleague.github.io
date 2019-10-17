@@ -1,5 +1,6 @@
 ## The Division 2
 
+
 <video src="vid1.mp4" width="500" height="300" controls preload></video>
 
 
@@ -9,10 +10,22 @@
 <video src="vid3.mp4" width="500" height="300" controls preload></video>
 
 
+
 ## Dropzone
 
 
 <video src="vid4.mp4" width="500" height="300" controls preload></video>
 
 ![Settings](Settings.JPG)
+
 ![Crafting](Crafting.JPG)
+
+
+## Fun
+
+
+![Kotor](Artboard 1.4.png)
+
+![Nier 1](Neir1.JPG)
+
+![Nier 2](Nier2.JPG)
