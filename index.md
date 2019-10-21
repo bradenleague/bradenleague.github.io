@@ -21,11 +21,3 @@
 ![Crafting](Crafting.JPG)
 
 
-## Fun
-
-
-![Kotor](Artboard 1.4.png)
-
-![Nier 1](nier1.jpg)
-
-![Nier 2](nier2.jpg)
