@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <!-- Uh, hey, welcome to the source nerd, gtfo, or take a look around its p straight forward -->
+  <!-- by bradenleague -->
+  <!-- THE LIFE OF PABLO V1 -->
+  <meta charset="UTF-8">
+  <title>THE LIFE OF PABLO</title>
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <style>
+        body {
+          margin: 0px;
+          padding: 0px;
+          background-color:#f78c58;
+        }
+
+        p {
+          font-family: 'Open Sans';
+          font-size: 14px;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: 400;
+          line-height: 20px;
+        }
+
+
+        .inputSpot{
+          position: absolute;
+          background-color: grey;
+          width: 25%;
+          height: 120px; 
+          
+        }
+
+        #canvasImg{
+          position: absolute;
+          left: 50%;
+          top: 5%;
+          margin-left: -300px;
+        }        
+
+
+    </style>
+  </head>
+  <body>
+    <div class="inputSpot">
+      <p>Upload an Image to get started, right click to save</p>
+      <input type="file" id="uploadElement" accept="image/*"></input>
+      <input type="text" id="message"> </input>
+    </div>
+    <canvas id="myCanvas" width="600" height="600" style="display:none";></canvas>
+    <img id="canvasImg" alt="">
+    <script type="text/javascript">
+
+    var _this = new Object();
+
+    function timerFired(){
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        
+        redrawAll(ctx);
+        window.setTimeout(timerFired, 1000 / 60); //only needs to be done once? try checking if the image or text changed
+    }
+
+    function redrawAll(){
+      var canvas = document.getElementById('myCanvas');
+      var ctx = canvas.getContext('2d');
+      var msg = _this.msg;
+
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      if (_this.currentPic == null){
+          ctx.fillText(msg,40,40);
+      } else {
+
+      ctx.fillStyle = "#f78c58";
+      ctx.fillRect(0,0, canvas.width, canvas.height);
+
+      ctx.drawImage(_this.currentPic,68,450, _this.imageWidth, _this.imageHeight);
+      // font
+      ctx.font = "bold 17px Arial";
+      ctx.fillStyle = "#000";
+
+      //FIRST COLUMN
+      ctx.fillText(msg,40,40);
+      ctx.fillText(msg,40,60);
+      ctx.fillText(msg,40,80);
+      ctx.fillText(msg,40,100);
+      ctx.fillText(msg,40,120);
+      ctx.fillText(msg,40,140);
+      ctx.fillText(msg,40,160);
+      ctx.fillText(msg,40,180);
+
+      ctx.fillText(msg,42,165);
+      ctx.fillText(msg,42,185);
+      ctx.fillText(msg,42,205);
+      ctx.fillText(msg,42,225);
+      ctx.fillText(msg,42,245);
+      ctx.fillText(msg,42,265);
+      ctx.fillText(msg,42,285);
+      ctx.fillText(msg,42,305);
+
+      ctx.fillText(msg,39,310);
+      ctx.fillText(msg,39,320);
+      ctx.fillText(msg,39,340);
+      ctx.fillText(msg,39,360);
+      ctx.fillText(msg,39,380);
+      ctx.fillText(msg,39,400);
+      ctx.fillText(msg,39,420);
+      ctx.fillText(msg,39,440);
+
+      //SECOND
+      ctx.fillText(msg,210,103);
+      ctx.fillText(msg,210,123);
+      ctx.fillText(msg,210,143);
+      ctx.fillText(msg,210,163);
+      ctx.fillText(msg,210,183);
+      ctx.fillText(msg,210,203);
+      ctx.fillText(msg,210,223);
+      ctx.fillText(msg,210,243);
+
+      ctx.fillText(msg,212,245);
+      ctx.fillText(msg,212,265);
+      ctx.fillText(msg,212,285);
+      ctx.fillText(msg,212,305);
+      ctx.fillText(msg,212,325);
+      ctx.fillText(msg,212,345);
+      ctx.fillText(msg,212,365);
+      ctx.fillText(msg,212,385);
+
+      ctx.fillText(msg,220,408);
+      ctx.fillText(msg,220,428);
+      ctx.fillText(msg,220,448);
+      ctx.fillText(msg,220,468);
+      ctx.fillText(msg,220,488);
+      ctx.fillText(msg,220,508);
+      ctx.fillText(msg,220,528);
+      ctx.fillText(msg,220,548);
+
+      //THIRD
+      ctx.fillText(msg,370,95);
+      ctx.fillText(msg,370,115);
+      ctx.fillText(msg,370,135);
+      ctx.fillText(msg,370,155);
+      ctx.fillText(msg,370,175);
+      ctx.fillText(msg,370,195);
+      ctx.fillText(msg,370,215);
+      ctx.fillText(msg,370,235);
+
+      ctx.fillText(msg,372,250);
+      ctx.fillText(msg,372,270);
+      ctx.fillText(msg,372,290);
+      ctx.fillText(msg,372,310);
+      ctx.fillText(msg,372,330);
+      ctx.fillText(msg,372,350);
+      ctx.fillText(msg,372,370);
+      ctx.fillText(msg,372,390);
+
+      ctx.fillText(msg,348,398);
+      ctx.fillText(msg,348,418);
+      ctx.fillText(msg,348,438);
+      ctx.fillText(msg,348,458);
+      ctx.fillText(msg,348,478);
+      ctx.fillText(msg,348,498);
+      ctx.fillText(msg,348,518);
+      ctx.fillText(msg,348,538);
+
+      // save canvas image as data url (png format by default)
+      var dataURL = canvas.toDataURL();
+
+      // set canvasImg image src to dataURL
+      // so it can be saved as an image
+      document.getElementById('canvasImg').src = dataURL;
+
+      } //end else 
+    }
+
+    function handlePicUpload(event){
+        var file = event.target.files[0];
+        var reader = new FileReader();  
+        reader.onload = function(event) {updatePic(event.target.result)}
+        reader.readAsDataURL(file);
+    }
+
+    function updatePic(sourceImage){
+        var img = new Image();
+        img.onload = function(){
+            _this.imageWidth = 140;
+            _this.imageHeight = 95;
+            _this.currentPic = img;
+        }
+        img.src = sourceImage;
+        redrawAll();
+    }
+
+    $(document).ready(function(){
+        _this.currentPic = null;
+        _this.message = null
+        // links the upload function to a change in the file input
+        $("#uploadElement").change(handlePicUpload);
+        $("#message").val("THE LIFE OF PABLO");
+
+        $("#message").change(function(){
+          var message = $('input:text').val();
+          _this.msg = message;
+        });
+       
+        if(_this.message == null){
+          _this.msg = "THE LIFE OF PABLO";
+          _this.imageWidth = 140;
+          _this.imageHeight = 95;
+          updatePic('kayne.png');
+        } else {
+          _this.msg = message;
+        }
+        timerFired();
+    });
+    </script>
+  </body>
+</html>      
