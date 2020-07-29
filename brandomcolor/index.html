@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Brandom Color</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.3/seedrandom.min.js"></script>
+    <meta property="og:title" content="Brandom Color">
+    <meta property="og:description" content="By Braden League">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+
+  </head>
+  <style>@import url("https://use.typekit.net/tgj2oou.css");</style>
+
+  <body>
+
+  <div style="background-color: rgba(255,255,255, .5)" class="container align-self-center">
+    <div class="row justify-content-md-center">
+     <div class="col-8 align-self-center">
+        <h1>Braden League</h1>
+        <p>välkommen, det här är tester</p>
+          <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label">Text</label>
+          <div class="col-10">
+            <input class="form-control" type="text" value="Type Here" id="rseed">
+          </div>
+          </div>
+          <h1 id="displayseed">The Color</h1>
+      </div>
+    </div>
+    <script>
+
+      function map_range(value, low1, high1, low2, high2) {
+        return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
+      }
+
+      $("#rseed").bind("change paste keyup", function() {
+
+        var entry = $('#rseed').val();
+        var myrng = new Math.seedrandom(entry);
+        var thenum = myrng();
+        var secondnum = myrng();
+        var threenum = myrng();
+        var colorB = Math.round(map_range(thenum, 0, 1, 0, 255));
+        var colorG = Math.round(map_range(secondnum, 0, 1, 0, 255));
+        var colorR = Math.round(map_range(threenum, 0, 1, 0, 255));
+
+        $('#displayseed').text('rgb('+ colorR + ',' + colorG + ',' + colorB + ')');
+        $('body').css({'background-color': 'rgb(' + colorR + ',' + colorG + ',' + colorB + ')'});
+      });
+
+    </script>
+  </div>
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
