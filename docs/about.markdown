@@ -10,3 +10,5 @@ Coming Soonish™
 
 - Original date - {{ date }}
 - With timeago filter - {{ date | timeago }}
+
+{% picture my_image2.jpg %}
