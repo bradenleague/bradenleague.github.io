@@ -22,7 +22,7 @@
     <meta name="twitter:site" content="@bradenleague">
     <meta name="twitter:creator" content="@bradenleague">
     {% if page.title %}
-      <meta name="twitter:title" content="{{ page.title }}">
+      <meta property="og:title" name="twitter:title" content="{{ page.title }}">
     {% else %}
       <meta name="twitter:title" content="{{ site.title }}">
     {% endif %}
@@ -30,17 +30,16 @@
       <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     {% endif %}
     {% if page.description %}
-      <meta name="twitter:description" content="{{ page.description }}">
+      <meta property="og:description" name="twitter:description" content="{{ page.description }}">
     {% else %}
-      <meta name="twitter:description" content="{{ site.description }}">
+      <meta property="og:description" name="twitter:description" content="{{ site.description }}">
     {% endif %}
     {% if page.image %}
       <meta name="twitter:image:src" content="{{ site.url }}/path/to/image/{{ page.image }}">
     {% else %}
-      <meta name="twitter:image:src" content="{{ site.url }}/assets/images/brae-patlabor.png">
+      <meta property="og:image" name="twitter:image:src" content="https://brae.page//assets/images/brae-patlabor.png">
+      <meta property="og:image:alt" content="brae-patlabor">
     {% endif %}
-
-
 
   </head>
   
