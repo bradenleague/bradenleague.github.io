@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Coming Soonish™
+[bradenleague.com/about][bradenleaguedotcom]
+
+[bradenleaguedotcom]: https://www.bradenleague.com/about

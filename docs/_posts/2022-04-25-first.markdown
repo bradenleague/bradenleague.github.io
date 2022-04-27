@@ -1,19 +1,21 @@
 ---
 layout: post
 title:  "first"
+subtitle: "hello world"
 date:   2022-04-25 23:00:00 -0700
 categories: Personal
+excerpt_separator: <!--more-->
 ---
 
 Hello!
-
+------
 
 Today it was announced that [Elon Musk is buying Twitter][elon-twitter]. 
 
 lol 
 
 There was a time in my life not too long ago when I wanted a large follower count and lots of engagement on my posts. Time has passed but the urge to tweet thru it has not. I have been sharing my life online for almost two decades, why would I stop now. I was reminded by Facebook today of a quality post I made in 2008 that just says, “is epic”. That is quality stuff, but I also got a kick out of seeing that. 
-
+<!--more-->
 I don’t think I could stop sharing online if I wanted but I have also learned that it is more than anything a public journal and primarily for my own enjoyment. It's nice if others see it, it's nice when my tweets get a like, or a post spawns a fun conversation. Although, most of the time I just want to talk about the anime I am watching or game I am playing or bad music I am making in a 400 or so character posts. 
 
 There are a million platforms to do this and many more will come and go but since I know enough to be dangerous when it comes to web technologies, so I figured why not roll my own. I control all the files, know where everything is being hosted and understand how this all works. This is using a domain I bought for fun a year ago and being hosted on github pages which is provided for free. The blog itself is running [jekyll][jekyll-gh] which I think I’ve heard about in passing over the years but also comes up if you google some variations of “static site CMS open source”

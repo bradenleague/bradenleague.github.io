@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "second"
+subtitle: "Or the things I do for fun"
+date:   2022-04-26 22:00:00 -0700
+categories: Personal
+
+---
+
+Or the things I do for fun.
+------
+
+*"first", "second", "third"*, et cetera is a naming convention I’ve picked up whenever I am experimenting with new software or projects. Its noncommittal enough that I can blast thru the first few days of learning a new program with just making a new folder when I want to start fresh. I think it’s a very awful naming convention for anything software related because the words *“first”, “second”, “third”* do not list in any sort of friendly or meaningful way in a directory. It would make a lot more sense to name them *“001_learning”, “002_learningmore”, “003_nextidea”* or whatever but something about this peculiar naming convention tickles me and lets me focus on whatever I am making instead of the name of the thing. 
+
+Here is an anime recommendation, 
+
+Gunbuster is great, directed Hideaki Anno a few years before he worked on Evangelion its full of all the 80s Japan economic bubble anime boom I love. Go check it out
+
+{:refdef: style="text-align: center;"}
+![image](/assets/images/gunbuster2.gif)
+{: refdef}
+
+Speaking of this naming convention you can see it in some of the ambient music I made last year. I’ve experimented with learning Digital Audio Workstation's briefly in college but when I started making these tracks in January of 2021, I was starting fresh and learning a new DAW ([reaper][reaper]). I initially intended to just take some field recordings with an old zoom recorder I had and slow the heck out of them then add a bunch of reverb. I did do that and then also sort of fell down a hole of Weird Noise Making. 
+
+I don’t think I am any good at this but honestly that is the draw. As a professional with the word “artist” in their title I get stressed out whenever I am working on anything visual, I spent a lot of years and money going to school for being an “artist” I better be half good at it by now. When making music I don’t feel any need to be *good* at it. I also love listening to dark ambient music late at night when fiddling on whatever project I’ve hyper focused on. I just love exploring that sonic space, man. 
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/974227504&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+<br>
+
+
+I spent over an hour today looking into [plugins for Jekyll][JPT] that would spit out images of different sizes with media queries. I spent many hours last night installing command line software that could do operations on said images as part of the build process for Jekyll. I was having issues running it on windows since the directions were primarily for Linux, then I remembered I set up an Ubuntu VM a few weeks ago and jumped in there, finally a use for having a VM on my machine! I did get it all working but, in the process, had remove the CI step that GitHub pages nicely takes care of and would have to build the website local. Not a problem, and it was slick, but it didn’t work with animated gifs and in the process of learning this all I realized I could just link images the old-fashioned way. So, if you are reading this on an iPhone 3G I am sorry for making you download large images that probably hold up the entire page load. 
+
+
+---------------
+<br>
+I partook in a game jam with [Tim Rodgers actionbutton][actionbutton] goblin-bunker discord sometime last year and took the weekend to learn [Pico-8][pico8]. It is never a good idea to try to learn a new tool for a game jam but in this case the game jam was the motivator to learn Pico-8. I probably bit off way more than I could chew because I followed a tutorial for a [Mode 7][mode7] style camera with a lot of complex vector math that went over my head. In the end I was able to learn the basics of Pico-8, follow a tutorial largely over my head and made this, it was fun. 
+
+<br>
+<iframe frameborder="0" src="https://itch.io/embed/930612" width="100%" height="167"><a href="https://bradenleague.itch.io/just-drivin">Just Drivin&#039; by bradenleague</a></iframe>
+<br>
+
+
+
+That’s all for today! I have no intention of updating this regularly, but I do want to archive some of my older work from college and I will probably write that up in a post or two in the weeks or months to come. I will also try to just write something slightly more long form here next time I have the urge to tweet a 15-tweet thread. 
+
+thx,
+
+-braebrae
+
+[reaper]: https://www.reaper.fm/
+[JPT]: http://rbuchberger.github.io/jekyll_picture_tag/
+[actionbutton]: https://www.youtube.com/c/ActionButton
+[pico8]: https://www.lexaloffle.com/pico-8.php
+[mode7]: https://en.wikipedia.org/wiki/Mode_7
+
