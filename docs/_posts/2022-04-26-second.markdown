@@ -14,7 +14,7 @@ Or the things I do for fun.
 
 Here is an anime recommendation, 
 
-Gunbuster is great, directed Hideaki Anno a few years before he worked on Evangelion its full of all the 80s Japan economic bubble anime boom I love. Go check it out
+Gunbuster is great, directed by Hideaki Anno a few years before he worked on Evangelion its full of all the 80s Japan economic bubble anime boom I love. Go check it out
 
 {:refdef: style="text-align: center;"}
 ![image](/assets/images/gunbuster2.gif)

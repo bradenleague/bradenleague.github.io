@@ -19,13 +19,32 @@ time, mark, audio, video {
 	/* vertical-align: baseline; */
 }
 
+.site-header {
+    background-color: #303134;
+}
+
+.site-title, .site-title:visited {
+    color: #828282;
+    font-weight: bold;
+}
+
+.site-title, .site-title:visited:hover {
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.site-nav .page-link {
+    color: #e8e8e8;
+}
+
 .page-content {
-    background-color: #ffffff;
+    background-color: #e8e8e8;
 }
 
 
 .site-footer{
-    background-color: #e8e8e8;
+    background-color: #303134;
 }
 
 .post-list-heading {
@@ -61,4 +80,8 @@ time, mark, audio, video {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     margin-bottom: 15px;
+}
+
+.footer-heading {
+    color: #e8e8e8;
 }
