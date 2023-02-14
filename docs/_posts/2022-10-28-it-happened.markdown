@@ -24,7 +24,7 @@ Speaking of anime here is another recommendation,
 ![image](/assets/images/patlabor2.gif)
 {: refdef}
 
-Patlabor 2: The Movie was directed by Mamoru Oshii right before he directed [Ghost in the Shell][Ghost in the Shell], one of the greatest animated films of all time. In Patlabor 2 Oshii is experimenting with the techniques and themes of GitS, there are cool forced perspective shots as well as a beautiful but unsettling sequence of a Tokyo under occupation by the Japanese Defense Force. Here is a [video about Patlabor 2] and if you are on the fence about watching it I think it’s worth checking out even with some of its spoilers.  
+Patlabor 2: The Movie was directed by Mamoru Oshii right before he directed [Ghost in the Shell][Ghost in the Shell], one of the greatest animated films of all time. In Patlabor 2 Oshii is experimenting with the techniques and themes of GitS, there are cool forced perspective shots as well as a beautiful but unsettling sequence of a Tokyo under occupation by the Japanese Defense Force. Here is a [video about Patlabor 2][video about Patlabor 2] and if you are on the fence about watching it I think it’s worth checking out even with some of its spoilers.  
 
 Thats all for now, I'll probably write that thing about my favorite media of the year soon. 
 
