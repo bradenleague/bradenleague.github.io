@@ -59,6 +59,14 @@ The Images are also generated using [Stable Diffusion][Stable Diffusion] that I 
 
 I still have a list of my favorite media from last year, maybe I’ll post it before the end of 2023 ;)
 
+I'll also recommend another anime next time I am sure.
+
+thx,
+
+-braebrae
+
 
 [Stable Diffusion]: https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
+
 
