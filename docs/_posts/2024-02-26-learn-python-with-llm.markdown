@@ -2,11 +2,11 @@
 layout: post
 title:  "How to teach yourself Python with a LLM"
 subtitle: "Copilot, ChatGPT, Gemini"
-date:   2023-02-13 10:00:00 -0700
+date:   2024-02-25 10:00:00 -0700
 categories: Personal
 
 ---
-How to teach yourself Python with a LLM (Copilot, ChatGPT, Gemini)
+
 ------
 
 <iframe width="711" height="400" src="https://www.youtube.com/embed/PmzBneayhaA" title="How to teach yourself Python with a LLM (Copilot, ChatGPT, Gemini)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
