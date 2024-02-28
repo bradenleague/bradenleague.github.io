@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "AI Curious "
-subtitle: "The Artist Will Be Fine"
+subtitle: "The Artist is Here to Stay"
 date:   2024-02-26 10:00:00 -0700
 categories: Personal
 
 ---
-The Artist Will Be Fine
+The Artist is Here to Stay
 ------
 
 <figure>
