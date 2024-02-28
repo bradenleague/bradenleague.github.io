@@ -19,6 +19,31 @@ time, mark, audio, video {
 	/* vertical-align: baseline; */
 }
 
+/* Style for  all headers, H1 - H6 */
+/* Baseline: Makes text size responsive to screen size */
+body {
+    /* font-family: Georgia, serif; Or your chosen serif */
+    font-size: 17px; /* Adjust as needed */
+    line-height: 1.55; 
+    color: #222; /* Slightly softer than pure black */
+    margin: 0; /* Reset default browser margins */
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.5em; 
+}
+
+h2 { 
+    font-size: 2em;  
+}
+
+  
+
 .site-header {
     background-color: #303134;
 }
@@ -84,4 +109,46 @@ time, mark, audio, video {
 
 .footer-heading {
     color: #e8e8e8;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 5px solid #ccc; 
+    padding-left: 15px;
+    margin-left: 20px;
+}
+
+.my-center-embed {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block; 
+  }
+
+  blockquote {
+    background-color: #222; /* Dark background */
+    color: #f0f0f0; /* Light, crisp text */
+    border: none;  /* Remove the border entirely */
+    padding: 30px;
+    margin: 30px 0; 
+    font-family: 'Adobe Jenson', serif; 
+    font-style: italic;
+}
+
+blockquote p {
+    font-size: 19px; 
+    line-height: 1.5; 
+    letter-spacing: 1px; /* Adjust the '1px' value as desired */
+}
+
+blockquote cite {
+    display: block;
+    text-align: right; 
+    color: #999;  /* Slightly lighter attribution */ 
+    margin-top: 15px; 
+}
+
+figcaption {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
 }
