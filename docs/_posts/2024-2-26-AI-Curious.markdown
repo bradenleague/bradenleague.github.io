@@ -15,8 +15,10 @@ The Artist is Here to Stay
 </figure>
 
 
+I have seen a sentiment among my artist friends that AI is coming for their jobs. The AI technologies currently making waves will deeply impact every information and creative sector job, if you work on a computer your job is going to change as it has changed with smart phones, the internet, the computer, and every other major technological revolution of our lifetimes. At the top here I’d like to separate art into two categories, the first being fine art and the second being commercial art. AI cannot replace fine art. When we create work for ourselves, we do it because we must, children draw, and I still play music.   
 
-I didn’t drink in January this year, but I did spend as much time talking at people about AI in the bar all February. A wise meme once told me that _we live in a society_ and in that spirit, I ask you to approach this technology with curiosity and kindness for yourself and others. This is also an individualist view of the technology and an optimistic one at that. I touch on systems but not so much the systems of society, only where the artist fits into that system at times. 
+I have a decade of experience as a commercial artist, and let me tell you, its work. I love my job, but I also love optimizing any aspect of it that I can. The work I produce for others brings me joy, but the pursuit of craft brings me even more. I am excited for the future and the possibilities brought by more powerful tools. This essay is an individualist view of AI technology and an optimistic one at that. I touch on systems but not so much the systems of society, only where the artist fits into that system at times. I firmly believe that the artist is better positioned for this next technological revolution than most, so I will ask you to approach this technology with curiosity and kindness for yourself and others. 
+
 
 ## Tech Art
 
@@ -32,7 +34,7 @@ Technology can be the medium of artistic expression itself. Consider the  [Libra
 
 <br>
 
-Web Development was always my plan B to make plan A of working in the video game industry look more well measured. Early in my career, I was told there was a need for 'UI People.' A decade later, that advice proved true as I've built a career as a User Interface Technical Artist, working on multiple AAA games. My experience working on multiple AAA games has deepened my knowledge of critical tools and process for developing large-scale commercial and creative software. This background in games gives me a perspective that I bring to my projects, professional and personal.
+Web Development was always my plan B to make plan A of working in the video game industry look more well measured. Early in my career, I was told there was a need for 'UI People.' A decade later, that advice proved true as I've built a career as a User Interface Technical Artist, working on multiple franchises known around the world. This experience has taught me how to teach myself. The tools and processes change so to work on these large-scale commercial and creative software projects requires flexibility, curiosity, and empathy. 
 
 On large projects the skill of a technical artist can be understanding the constant time vs. automation dilemma. Do you spend 8 hours doing a repetitive task, or invest 40+ hours building a tool to streamline it? Sometimes, there's no way around the “grunt work”, especially if it's a one-off thing. But other times, automating saves not only your time, but potentially hundreds of others' hours down the line. There is a craft in being a technical artist and part of that craft is knowing when to invest in automation. 
 
@@ -81,9 +83,9 @@ I think it’s important we stop here and understand that I did not just describ
 
 >“...Creativity is self-generated in areas of the mind beyond or beneath the individual’s willful, conscious control. All he can do is discipline his consciousness to accommodate the needs of the creative process.” 
 >
-> -- Ingo Swann from his book, Everybody's Guide to Natural ESP
+> -- Ingo Swann, Everybody's Guide to Natural ESP
 
-I do want to wrap this up, and I want to invite you to play with this new technology. I think navigating this technology is the work of the next decade and conversations around plagiarism and moderation are more important than ever. I think it’s important to understand this technology and recognize the fear of being marginalized and replaced is valid. None of these ideas or feelings are new, from the photograph to the internet media has been changing rapidly for well over a century now. If you do work on a computer your job will change. I think that artists are actually better equipped to navigate these new tool as we must always be thoughtful and critical of what we make
+I do want to wrap this up, and I want to invite you to play with this new technology. I think navigating this technology is the work of the next decade and conversations around plagiarism and moderation are more important than ever. I think it’s important to understand this technology and recognize the fear of being marginalized and replaced is valid. There are conversations we need to have about power and who will have the ability to claim AI work as their own, and who will not. None of these ideas or feelings are new, from the photograph to the internet media has been changing rapidly for well over a century now. If you do work on a computer your job will change. I know that artists are better equipped to navigate these new tools as we must always be thoughtful and critical of what we make. 
 
 thx,
 
