@@ -11,7 +11,7 @@ The Artist is Here to Stay
 
 <figure>
     <img src="\assets\images\generated\red1.png" alt="Image generated with Stable Diffusion and LAION 5B, June 19th 2023" />
-    <figcaption>Image generated with <a href="https://github.com/CompVis/stable-diffusion">Stable Diffusion</a> and LAION 5B, June 19th 2023</figcaption>
+    <figcaption>Image generated with <a href="https://github.com/CompVis/stable-diffusion">Stable Diffusion</a> and LAION-5B, June 19th 2023</figcaption>
 </figure>
 
 
