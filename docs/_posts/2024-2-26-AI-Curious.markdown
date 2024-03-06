@@ -12,10 +12,10 @@ The Artist is Here to Stay
 
 <figure>
     <img src="\assets\images\generated\red1.png" alt="Image generated with Stable Diffusion and LAION-5B, June 19th 2023" />
-    <figcaption>Image generated with <a href="https://github.com/CompVis/stable-diffusion">Stable Diffusion</a> and LAION-5B, June 19th 2023</figcaption>
+    <figcaption>Image generated with <a href="https://github.com/CompVis/stable-diffusion">Stable Diffusion</a> and LAION-5B, June 19th 2023 <br> This work is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal.</a></figcaption>
 </figure>
 
-There is no doubt that AI image generation has forever changed the visual medium. Artists are concerned about being replaced by a machine that can perfectly create any image described in plain language, yet some are okay with chatbots summarizing a document or an AI copilot suggesting computer code. For those who have never used an AI system, whether it is a choice or not I hope you continue reading and are encouraged to play with one someday. To those who are curious about its usages in some places but not others I hope to shed light on how these systems work, at least in the abstract. And to those who have been rushing into exploring this technology I hope you take the time to think about the images you create and how they were created. 
+There is no doubt that AI image generation has forever changed the visual medium. Artists are concerned about being replaced by a machine that can perfectly create any image described in plain language, yet some are okay with chatbots summarizing a document or an AI copilot suggesting computer code. For those who have never used an AI system, deliberately or not, I hope you continue reading and are encouraged to play with one someday. To those who are curious about its usages in some places but not others I hope to shed light on how these systems work, at least in the abstract. And to those who have been rushing into exploring this technology, I hope you take the time to think about the images you create and how they were created. 
 
 The AI technologies currently making waves like ChatGPT, Midjourney, Copilot, DALL-E, Gemini, Sora, and more are the results of the massive advances made in parallel processing as well as the culmination of decades of research into computational linguistics, database search optimization and machine learning. I think we are on the cusp of a massive change in the way we do work on computers. The convenience of an AI summarized transcript of an hour-long meeting is going to entice everyone to opt into recording all their meetings. The power of an AI programming copilot cannot be denied and has recently enabled me to push my personal projects well beyond what I would normally be able to do in the time I had allotted for them. These tools will become part of our day-to-day work in the information and creative sector. 
 
@@ -49,7 +49,7 @@ I don’t know what the future of creative work looks like, but if I were to tak
 
 <figure>
     <img src="\assets\images\generated\water1.png" alt="Image generated with Stable Diffusion and LAION-5B, February 26th 2023" />
-    <figcaption>Image generated with <a href="https://github.com/CompVis/stable-diffusion">Stable Diffusion</a> and LAION-5B, February 26th 2023</figcaption>
+    <figcaption>Image generated with <a href="https://github.com/CompVis/stable-diffusion">Stable Diffusion</a> and LAION-5B, February 26th 2023, <br>This work is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal.</a></figcaption>
 </figure>
 
 ## On Databases
@@ -80,7 +80,7 @@ I think that video generation like [OpenAI's Sora][OpenAI's Sora] [^7] is about 
 </figure>
 
 
-Last year at the _Game Developers Conference_ (GDC) I saw a talk about developing a text adventure with free Input using _Natural Language Processing_ (NLP) by Yusuke Mori an AI Researcher at SQUARE ENIX. [^8] ChatGPT is an NLP tool working alongside another technology called _Generative Pre-trained Transformer_ (GPT), I have no idea how it works but if you have come this far stick with me. I think it’s an exercise in finding routes through Borges Library of Bable and an attempt to find meaning in the chaos. Or more practically, it’s a computer program and a dataset with output. 
+Last year at the _Game Developers Conference_ (GDC) I saw a talk about developing a text adventure with free Input using _Natural Language Processing_ (NLP) by Yusuke Mori an AI Researcher at SQUARE ENIX. [^8] ChatGPT is an NLP tool working alongside another technology called _Generative Pre-trained Transformer_ (GPT), I have no idea how it works but if you have come this far stick with me. I think it’s an exercise in finding routes through Borges Library of Babel and an attempt to find meaning in the chaos. Or more practically, it’s a computer program and a dataset with output. 
 
 The game in the GDC talk does run a NLP application at runtime so when the player types in text into the game the NLP App understands the text and sends the result back to the game. This understanding step is called _Natural Language Understanding_ (NLU) and allows the software to decide if the text is related to the scenario and sends the result back to the game engine. By using traditional game logic, the engine can either require the player to prompt the NLP app or continue the scenario, thus creating the illusion of an endlessly interactive world. 
 
